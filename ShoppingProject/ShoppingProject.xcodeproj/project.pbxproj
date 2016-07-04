@@ -25,14 +25,6 @@
 		040436B71D291EE500D14087 /* MingXingYiChuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040436B61D291EE500D14087 /* MingXingYiChuVC.m */; };
 		040436BA1D291F0100D14087 /* NanYiBangVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040436B91D291F0100D14087 /* NanYiBangVC.m */; };
 		040436BD1D291F1300D14087 /* PaymentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040436BC1D291F1300D14087 /* PaymentVC.m */; };
-		04EA59291D29F995000A4711 /* PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA59281D29F995000A4711 /* PlaceHolder.m */; };
-		04EA592C1D29F9A8000A4711 /* PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA592B1D29F9A8000A4711 /* PlaceHolder.m */; };
-		04EA59321D29FA08000A4711 /* placeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA59311D29FA08000A4711 /* placeHolder.m */; };
-		04EA59351D29FA15000A4711 /* placeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA59341D29FA15000A4711 /* placeHolder.m */; };
-		04EA593B1D29FA4C000A4711 /* placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA593A1D29FA4C000A4711 /* placeholder.m */; };
-		04EA593E1D29FA59000A4711 /* placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA593D1D29FA59000A4711 /* placeholder.m */; };
-		04EA59441D29FABD000A4711 /* placeHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA59431D29FABD000A4711 /* placeHolder.m */; };
-		04EA59471D29FACD000A4711 /* placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA59461D29FACD000A4711 /* placeholder.m */; };
 		1958F3864B4AEB82E0F7D3F9 /* libPods-ShoppingProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA2B56A07C40AA375E7CC0F /* libPods-ShoppingProject.a */; };
 /* End PBXBuildFile section */
 
@@ -66,22 +58,6 @@
 		040436B91D291F0100D14087 /* NanYiBangVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NanYiBangVC.m; sourceTree = "<group>"; };
 		040436BB1D291F1300D14087 /* PaymentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentVC.h; sourceTree = "<group>"; };
 		040436BC1D291F1300D14087 /* PaymentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentVC.m; sourceTree = "<group>"; };
-		04EA59271D29F995000A4711 /* PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolder.h; sourceTree = "<group>"; };
-		04EA59281D29F995000A4711 /* PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolder.m; sourceTree = "<group>"; };
-		04EA592A1D29F9A8000A4711 /* PlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolder.h; sourceTree = "<group>"; };
-		04EA592B1D29F9A8000A4711 /* PlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolder.m; sourceTree = "<group>"; };
-		04EA59301D29FA08000A4711 /* placeHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placeHolder.h; sourceTree = "<group>"; };
-		04EA59311D29FA08000A4711 /* placeHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placeHolder.m; sourceTree = "<group>"; };
-		04EA59331D29FA15000A4711 /* placeHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placeHolder.h; sourceTree = "<group>"; };
-		04EA59341D29FA15000A4711 /* placeHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placeHolder.m; sourceTree = "<group>"; };
-		04EA59391D29FA4C000A4711 /* placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placeholder.h; sourceTree = "<group>"; };
-		04EA593A1D29FA4C000A4711 /* placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placeholder.m; sourceTree = "<group>"; };
-		04EA593C1D29FA59000A4711 /* placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placeholder.h; sourceTree = "<group>"; };
-		04EA593D1D29FA59000A4711 /* placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placeholder.m; sourceTree = "<group>"; };
-		04EA59421D29FABD000A4711 /* placeHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placeHolder.h; sourceTree = "<group>"; };
-		04EA59431D29FABD000A4711 /* placeHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placeHolder.m; sourceTree = "<group>"; };
-		04EA59451D29FACD000A4711 /* placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = placeholder.h; sourceTree = "<group>"; };
-		04EA59461D29FACD000A4711 /* placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = placeholder.m; sourceTree = "<group>"; };
 		2EA2B56A07C40AA375E7CC0F /* libPods-ShoppingProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoppingProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D506CAE51EF5C0A116468BC1 /* Pods-ShoppingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingProject/Pods-ShoppingProject.release.xcconfig"; sourceTree = "<group>"; };
 		DF16975C7F22FE633D537B72 /* Pods-ShoppingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingProject/Pods-ShoppingProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -256,8 +232,6 @@
 		04EA59251D29F969000A4711 /* WM */ = {
 			isa = PBXGroup;
 			children = (
-				04EA59271D29F995000A4711 /* PlaceHolder.h */,
-				04EA59281D29F995000A4711 /* PlaceHolder.m */,
 			);
 			path = WM;
 			sourceTree = "<group>";
@@ -265,8 +239,6 @@
 		04EA59261D29F969000A4711 /* ZKQ */ = {
 			isa = PBXGroup;
 			children = (
-				04EA592A1D29F9A8000A4711 /* PlaceHolder.h */,
-				04EA592B1D29F9A8000A4711 /* PlaceHolder.m */,
 			);
 			path = ZKQ;
 			sourceTree = "<group>";
@@ -283,8 +255,6 @@
 		04EA592E1D29F9F7000A4711 /* WM */ = {
 			isa = PBXGroup;
 			children = (
-				04EA59301D29FA08000A4711 /* placeHolder.h */,
-				04EA59311D29FA08000A4711 /* placeHolder.m */,
 			);
 			path = WM;
 			sourceTree = "<group>";
@@ -292,8 +262,6 @@
 		04EA592F1D29F9F7000A4711 /* ZKQ */ = {
 			isa = PBXGroup;
 			children = (
-				04EA59331D29FA15000A4711 /* placeHolder.h */,
-				04EA59341D29FA15000A4711 /* placeHolder.m */,
 			);
 			path = ZKQ;
 			sourceTree = "<group>";
@@ -310,8 +278,6 @@
 		04EA59371D29FA3E000A4711 /* WM */ = {
 			isa = PBXGroup;
 			children = (
-				04EA59391D29FA4C000A4711 /* placeholder.h */,
-				04EA593A1D29FA4C000A4711 /* placeholder.m */,
 			);
 			path = WM;
 			sourceTree = "<group>";
@@ -319,8 +285,6 @@
 		04EA59381D29FA3E000A4711 /* ZKQ */ = {
 			isa = PBXGroup;
 			children = (
-				04EA593C1D29FA59000A4711 /* placeholder.h */,
-				04EA593D1D29FA59000A4711 /* placeholder.m */,
 			);
 			path = ZKQ;
 			sourceTree = "<group>";
@@ -337,8 +301,6 @@
 		04EA59401D29FAAD000A4711 /* WM */ = {
 			isa = PBXGroup;
 			children = (
-				04EA59421D29FABD000A4711 /* placeHolder.h */,
-				04EA59431D29FABD000A4711 /* placeHolder.m */,
 			);
 			path = WM;
 			sourceTree = "<group>";
@@ -346,8 +308,6 @@
 		04EA59411D29FAAD000A4711 /* ZKQ */ = {
 			isa = PBXGroup;
 			children = (
-				04EA59451D29FACD000A4711 /* placeholder.h */,
-				04EA59461D29FACD000A4711 /* placeholder.m */,
 			);
 			path = ZKQ;
 			sourceTree = "<group>";
@@ -502,17 +462,9 @@
 				040436B71D291EE500D14087 /* MingXingYiChuVC.m in Sources */,
 				040436BA1D291F0100D14087 /* NanYiBangVC.m in Sources */,
 				040436131D275E7F00D14087 /* main.m in Sources */,
-				04EA59441D29FABD000A4711 /* placeHolder.m in Sources */,
 				040436BD1D291F1300D14087 /* PaymentVC.m in Sources */,
 				040436B11D291EA500D14087 /* CollocationVC.m in Sources */,
-				04EA59321D29FA08000A4711 /* placeHolder.m in Sources */,
-				04EA59291D29F995000A4711 /* PlaceHolder.m in Sources */,
-				04EA593E1D29FA59000A4711 /* placeholder.m in Sources */,
-				04EA59471D29FACD000A4711 /* placeholder.m in Sources */,
-				04EA593B1D29FA4C000A4711 /* placeholder.m in Sources */,
 				040436411D28FEEC00D14087 /* RootViewController.m in Sources */,
-				04EA592C1D29F9A8000A4711 /* PlaceHolder.m in Sources */,
-				04EA59351D29FA15000A4711 /* placeHolder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
