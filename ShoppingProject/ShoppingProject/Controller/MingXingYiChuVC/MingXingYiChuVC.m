@@ -17,7 +17,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"明星衣橱";
+    //修饰导航条
+    [self createTitleText];
+}
+
+-(void)createTitleText{
+    
+    UITextField * searchText = [[UITextField alloc]initWithFrame:CGRectMake(0, 0, 200, 30)];
+    searchText.placeholder = @"🔍单品/品牌/红人";
+    searchText.borderStyle = UITextBorderStyleRoundedRect;
+    self.navigationItem.titleView = searchText;
+    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(leftClick:)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(rightClick:)];
+}
+
+-(void)leftClick:(UIButton*)sender{
+    
+}
+
+-(void)rightClick:(UIButton*)sender{
+    
 }
 
 - (void)didReceiveMemoryWarning {
