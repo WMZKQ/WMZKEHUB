@@ -7,7 +7,6 @@
 //
 
 #import "RootViewController.h"
-
 @interface RootViewController ()
 
 @end
@@ -23,10 +22,10 @@
     [self.view addSubview:launchImageView];
     //一秒之后自动切换图片
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        launchImageView.image = [UIImage imageNamed:@"960-640-1"];
+        launchImageView.image = [UIImage imageNamed:@"960-640-1.png"];
         //2.5秒之后直接跳转根视图到mainTabBar
         [self performSelector:@selector(changeRootViewController) withObject:nil afterDelay:1.5];
-        
+ 
     });
     
 }

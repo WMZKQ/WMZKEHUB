@@ -25,6 +25,10 @@
 		040436B71D291EE500D14087 /* MingXingYiChuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040436B61D291EE500D14087 /* MingXingYiChuVC.m */; };
 		040436BA1D291F0100D14087 /* NanYiBangVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040436B91D291F0100D14087 /* NanYiBangVC.m */; };
 		040436BD1D291F1300D14087 /* PaymentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040436BC1D291F1300D14087 /* PaymentVC.m */; };
+		04EA596C1D2A3C0F000A4711 /* HTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA596B1D2A3C0F000A4711 /* HTTPManager.m */; };
+		04EA596F1D2A510D000A4711 /* MXYCSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA596E1D2A510D000A4711 /* MXYCSearchVC.m */; };
+		04EA59751D2A87B7000A4711 /* ZZCarouselControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA59741D2A87B7000A4711 /* ZZCarouselControl.m */; };
+		04EA597B1D2A9C15000A4711 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA597A1D2A9C14000A4711 /* HomeModel.m */; };
 		1958F3864B4AEB82E0F7D3F9 /* libPods-ShoppingProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA2B56A07C40AA375E7CC0F /* libPods-ShoppingProject.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,14 @@
 		040436B91D291F0100D14087 /* NanYiBangVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NanYiBangVC.m; sourceTree = "<group>"; };
 		040436BB1D291F1300D14087 /* PaymentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentVC.h; sourceTree = "<group>"; };
 		040436BC1D291F1300D14087 /* PaymentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentVC.m; sourceTree = "<group>"; };
+		04EA596A1D2A3C0F000A4711 /* HTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPManager.h; sourceTree = "<group>"; };
+		04EA596B1D2A3C0F000A4711 /* HTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPManager.m; sourceTree = "<group>"; };
+		04EA596D1D2A510D000A4711 /* MXYCSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXYCSearchVC.h; sourceTree = "<group>"; };
+		04EA596E1D2A510D000A4711 /* MXYCSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXYCSearchVC.m; sourceTree = "<group>"; };
+		04EA59731D2A87B7000A4711 /* ZZCarouselControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZCarouselControl.h; sourceTree = "<group>"; };
+		04EA59741D2A87B7000A4711 /* ZZCarouselControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCarouselControl.m; sourceTree = "<group>"; };
+		04EA59791D2A9C14000A4711 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		04EA597A1D2A9C14000A4711 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		2EA2B56A07C40AA375E7CC0F /* libPods-ShoppingProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoppingProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D506CAE51EF5C0A116468BC1 /* Pods-ShoppingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingProject/Pods-ShoppingProject.release.xcconfig"; sourceTree = "<group>"; };
 		DF16975C7F22FE633D537B72 /* Pods-ShoppingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingProject/Pods-ShoppingProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,10 +110,10 @@
 			children = (
 				040436141D275E7F00D14087 /* AppDelegate.h */,
 				040436151D275E7F00D14087 /* AppDelegate.m */,
-				04EA593F1D29FAAD000A4711 /* View */,
-				04EA59361D29FA3E000A4711 /* Model */,
-				04EA592D1D29F9F7000A4711 /* Tools */,
 				040436281D28FE7000D14087 /* config */,
+				04EA59761D2A9BEE000A4711 /* Model */,
+				04EA595F1D2A352D000A4711 /* Tools */,
+				04EA59511D2A05EE000A4711 /* View */,
 				0404362A1D28FE7000D14087 /* Controller */,
 				040436371D28FE7000D14087 /* Resource */,
 				0404361D1D275E7F00D14087 /* Assets.xcassets */,
@@ -133,8 +145,8 @@
 		0404362A1D28FE7000D14087 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				04EA59251D29F969000A4711 /* WM */,
-				04EA59261D29F969000A4711 /* ZKQ */,
+				04EA59541D2A0659000A4711 /* WM */,
+				04EA59551D2A0659000A4711 /* ZKQ */,
 				0404362B1D28FE7000D14087 /* CollocationVC */,
 				0404362C1D28FE7000D14087 /* CommunityVC */,
 				0404362D1D28FE7000D14087 /* MainThreadTabBar */,
@@ -229,83 +241,83 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
-		04EA59251D29F969000A4711 /* WM */ = {
+		04EA59511D2A05EE000A4711 /* View */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = WM;
-			sourceTree = "<group>";
-		};
-		04EA59261D29F969000A4711 /* ZKQ */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ZKQ;
-			sourceTree = "<group>";
-		};
-		04EA592D1D29F9F7000A4711 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				04EA592E1D29F9F7000A4711 /* WM */,
-				04EA592F1D29F9F7000A4711 /* ZKQ */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		04EA592E1D29F9F7000A4711 /* WM */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WM;
-			sourceTree = "<group>";
-		};
-		04EA592F1D29F9F7000A4711 /* ZKQ */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ZKQ;
-			sourceTree = "<group>";
-		};
-		04EA59361D29FA3E000A4711 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				04EA59371D29FA3E000A4711 /* WM */,
-				04EA59381D29FA3E000A4711 /* ZKQ */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		04EA59371D29FA3E000A4711 /* WM */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WM;
-			sourceTree = "<group>";
-		};
-		04EA59381D29FA3E000A4711 /* ZKQ */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ZKQ;
-			sourceTree = "<group>";
-		};
-		04EA593F1D29FAAD000A4711 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				04EA59401D29FAAD000A4711 /* WM */,
-				04EA59411D29FAAD000A4711 /* ZKQ */,
+				04EA59521D2A05EE000A4711 /* WM */,
+				04EA59531D2A05EE000A4711 /* ZKQ */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		04EA59401D29FAAD000A4711 /* WM */ = {
+		04EA59521D2A05EE000A4711 /* WM */ = {
 			isa = PBXGroup;
 			children = (
+				04EA59731D2A87B7000A4711 /* ZZCarouselControl.h */,
+				04EA59741D2A87B7000A4711 /* ZZCarouselControl.m */,
 			);
 			path = WM;
 			sourceTree = "<group>";
 		};
-		04EA59411D29FAAD000A4711 /* ZKQ */ = {
+		04EA59531D2A05EE000A4711 /* ZKQ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZKQ;
+			sourceTree = "<group>";
+		};
+		04EA59541D2A0659000A4711 /* WM */ = {
+			isa = PBXGroup;
+			children = (
+				04EA596D1D2A510D000A4711 /* MXYCSearchVC.h */,
+				04EA596E1D2A510D000A4711 /* MXYCSearchVC.m */,
+			);
+			path = WM;
+			sourceTree = "<group>";
+		};
+		04EA59551D2A0659000A4711 /* ZKQ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZKQ;
+			sourceTree = "<group>";
+		};
+		04EA595F1D2A352D000A4711 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				04EA59601D2A352D000A4711 /* WM */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04EA59601D2A352D000A4711 /* WM */ = {
+			isa = PBXGroup;
+			children = (
+				04EA596A1D2A3C0F000A4711 /* HTTPManager.h */,
+				04EA596B1D2A3C0F000A4711 /* HTTPManager.m */,
+			);
+			path = WM;
+			sourceTree = "<group>";
+		};
+		04EA59761D2A9BEE000A4711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04EA59771D2A9BEE000A4711 /* WM */,
+				04EA59781D2A9BEE000A4711 /* ZKQ */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04EA59771D2A9BEE000A4711 /* WM */ = {
+			isa = PBXGroup;
+			children = (
+				04EA59791D2A9C14000A4711 /* HomeModel.h */,
+				04EA597A1D2A9C14000A4711 /* HomeModel.m */,
+			);
+			path = WM;
+			sourceTree = "<group>";
+		};
+		04EA59781D2A9BEE000A4711 /* ZKQ */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -457,10 +469,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EA596C1D2A3C0F000A4711 /* HTTPManager.m in Sources */,
 				040436B41D291EB900D14087 /* ComminityVC.m in Sources */,
 				040436161D275E7F00D14087 /* AppDelegate.m in Sources */,
+				04EA59751D2A87B7000A4711 /* ZZCarouselControl.m in Sources */,
 				040436B71D291EE500D14087 /* MingXingYiChuVC.m in Sources */,
+				04EA597B1D2A9C15000A4711 /* HomeModel.m in Sources */,
 				040436BA1D291F0100D14087 /* NanYiBangVC.m in Sources */,
+				04EA596F1D2A510D000A4711 /* MXYCSearchVC.m in Sources */,
 				040436131D275E7F00D14087 /* main.m in Sources */,
 				040436BD1D291F1300D14087 /* PaymentVC.m in Sources */,
 				040436B11D291EA500D14087 /* CollocationVC.m in Sources */,

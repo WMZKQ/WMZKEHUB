@@ -20,7 +20,9 @@
 /***********导入第三方**********/
 #import "AFNetworking.h"
 #import "Masonry.h"
-
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "UIView+SDAutoLayout.h"
 
 /*******导入VC********/
 #import "RootViewController.h"
@@ -29,3 +31,16 @@
 #import "MingXingYiChuVC.h"
 #import "NanYiBangVC.h"
 #import "PaymentVC.h"
+
+
+/*****导入工具类*****/
+#import "HTTPManager.h"
+#import "HomeModel.h"
+
+
+
+
+
+
+
+

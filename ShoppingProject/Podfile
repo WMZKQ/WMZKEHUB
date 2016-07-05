@@ -7,4 +7,5 @@ target :'ShoppingProject' do
   pod 'SDWebImage'
   pod 'Masonry'
   pod 'MJRefresh'
+  pod 'SDAutoLayout'
 end
